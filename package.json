@@ -1,0 +1,18 @@
+{
+  "name": "faq-ia",
+  "version": "1.0.0",
+  "description": "FAQ Inteligente com IA (Gemini) para dúvidas sobre carreira em TI",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@google/genai": "^1.29.1",
+    "axios": "^1.13.2",
+    "dotenv": "^17.2.3"
+  }
+}
