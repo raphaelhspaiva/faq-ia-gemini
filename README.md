@@ -1,5 +1,10 @@
 # FAQ Inteligente com IA (Gemini + Node.js)
 
+![Node.js](https://img.shields.io/badge/Node.js-18+-green)
+![JavaScript](https://img.shields.io/badge/JavaScript-ESM-yellow)
+![Gemini API](https://img.shields.io/badge/Gemini-API-blue)
+![Status](https://img.shields.io/badge/Status-Ativo-success)
+
 Este projeto é um FAQ inteligente em linha de comando que responde perguntas sobre **carreira em TI, estágios e programação**, utilizando a **API oficial do Gemini** por meio do SDK `@google/genai`.
 
 O objetivo deste projeto é demonstrar:
@@ -22,29 +27,38 @@ O objetivo deste projeto é demonstrar:
 
 ### **1️⃣ Clone o repositório**
 
+```bash
 git clone https://github.com/raphaelhspaiva/faq-ia-gemini.git
-
 cd faq-ia-gemini
+```
 
-**2️⃣ Instale as dependências**
+### **2️⃣ Instale as dependências**
 
+```bash
 npm install
+```
 
-**3️⃣ Configure a variável de ambiente**
+### **3️⃣ Configure a variável de ambiente**
 Crie um arquivo .env na raiz do projeto:
 
+```env
 GEMINI_API_KEY=SUA_API_KEY_AQUI
-
+```
 (A chave pode ser obtida gratuitamente em: https://aistudio.google.com)
 
-**4️⃣ Execute o projeto**
+### **4️⃣ Execute o projeto**
 
+```bash
 npm start
+```
 
 Depois, digite sua pergunta no terminal.
 Para encerrar, digite:
 
+```bash
 sair
+```
+---
 
 ## O que aprendi
 
