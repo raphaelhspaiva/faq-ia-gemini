@@ -23,6 +23,7 @@ O objetivo deste projeto é demonstrar:
 ### **1️⃣ Clone o repositório**
 
 git clone https://github.com/raphaelhspaiva/faq-ia-gemini.git
+
 cd faq-ia-gemini
 
 **2️⃣ Instale as dependências**
@@ -44,5 +45,20 @@ Depois, digite sua pergunta no terminal.
 Para encerrar, digite:
 
 sair
+
+## O que aprendi
+
+- Como integrar a API do Gemini usando o SDK oficial `@google/genai`
+- Como estruturar um projeto Node.js simples em linha de comando
+- Como trabalhar com variáveis de ambiente e .gitignore para segurança
+- Como depurar erros de modelo/versão até chegar numa integração estável
+
+---
+
+Desenvolvido por **Raphael Henrique**  
+🔗 GitHub: https://github.com/raphaelhspaiva
+
+
+
 
 
